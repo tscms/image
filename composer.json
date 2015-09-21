@@ -1,5 +1,5 @@
 {
-	"name":        "kohana/image",
+	"name":        "tscms/image",
 	"type":        "kohana-module",
 	"description": "The official Kohana module for manipulating images",
 	"homepage":    "http://kohanaframework.org",
@@ -21,13 +21,10 @@
 	},
 	"require": {
 		"composer/installers": "~1.0",
-		"kohana/core":         ">=3.3",
-		"php":                 ">=5.3.3"
+		"php":                 ">=5.4"
 	},
     "require-dev": {
-        "kohana/core":         "3.3.*@dev",
-        "kohana/unittest":     "3.3.*@dev",
-        "kohana/koharness":    "*@dev"
+        "tscms/unittest":     "3.3.*@dev"
     },
 	"suggest": {
 		"ext-gd":   "*"
