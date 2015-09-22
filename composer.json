@@ -23,9 +23,6 @@
 		"composer/installers": "~1.0",
 		"php":                 ">=5.4"
 	},
-    "require-dev": {
-        "tscms/unittest":     "3.3.*@dev"
-    },
 	"suggest": {
 		"ext-gd":   "*"
 	},
